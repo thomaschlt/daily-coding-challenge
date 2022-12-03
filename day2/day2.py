@@ -5,7 +5,7 @@ f.close()
 myScore = 0
 
 for i in range(len(lines)):
-    if(lines[i][2] == 'X'): #Loose
+    if(lines[i][2] == 'X'): #Loose@
         myScore += 0
         if (lines[i][0] == 'A'): #Rock
             myScore+=3
